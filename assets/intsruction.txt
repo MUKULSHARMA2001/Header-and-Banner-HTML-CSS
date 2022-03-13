@@ -1,0 +1,4 @@
+Create the Header and banner as shown in the Image header- banner.jpg
+
+Menu refrence 
+https://www.w3schools.com/howto/howto_js_topnav.asp

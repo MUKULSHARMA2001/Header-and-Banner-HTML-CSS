@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto-Black',sans-serif;
+    font-size: 15px;
+    /* color: white; */
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+   
+}
+.row {
+    display: flex;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 18%) 0 0 44px;
+}
+
+.header .toparea {
+    background-color: #069fe5;
+    padding: 1rem 0;
+}
+.header .toparea .row {
+    display: flex;
+}
+.header .toparea .row .leftarea {
+    flex: 50%;
+    max-width: 50%;
+}
+.header .toparea .row .socialicon {
+    flex: 50%;
+    max-width: 50%;
+    color: white;
+}
+
+.navlist {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navlist li{
+    list-style: none;
+    margin-right: 1rem;
+    font-size: 15px;
+}
+.navlist li a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.9;
+}
+.navlist li a i {
+    margin-right: 10px;
+}
+
+.header .toparea .row .socialicon ul {
+    justify-content: flex-end;
+}
+
+.logoarea .logo {
+    margin-left: 30px;
+    flex: 50%;
+    max-width: 50%;             
+}
+
+.logoarea .menu {
+    flex: 0%;
+    max-width: 50%; 
+    
+     
+}
+.logoarea .logo img {
+    max-width: 200px;
+}
+
+.logoarea .menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.logoarea {
+    padding: 1rem 0;
+}
+.logoarea .row{
+    align-items: center;
+}
+.logoarea .menu ul li {
+    list-style: none;
+    flex: 1;
+    padding-left: 5px;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.logoarea .menu ul li a {
+    text-decoration: none;
+    /* color: white; */
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out 0s;
+}
+.logoarea .menu ul li a:hover {
+    color: #069fe5;
+    font-size: 18px;
+} 
+
+.banner {
+    background: url(../images/slide1.jpg) 0 0 no-repeat;
+    padding : 12rem 0;
+    background-size: cover;
+}
+
+
+.row1 {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 15px;
+    background-color: #069fe5;
+    width: 27%;
+    height: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 0.8rem;
+
+}
+
+.heading1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.p2 {
+    font-size: 15px;
+    font-weight: bold;
+}
